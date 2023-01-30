@@ -1,0 +1,5 @@
+1. A directory is a space in computer storage which organizes and stores files. It is often refferred to as a folder, but this is an abstraction of its core concept.
+
+2. A version control software allows us to not only store our code remotely when working with a service such as Github, but it allows a user to track progress and share code.
+
+3. My favorite artistic medium is game creation, as I feel like it is the most interactive form of art that still allows for direction by the artist.
