@@ -1,0 +1,3 @@
+Semantic markup is used for reinforcing the **meaning** of a text, or its semantics. This could range from underlining or italicizing a word to placing sections in blockquotes or adding citation specific elements.
+
+Structural markup, however, is used for creating and reinforcing the **structural** elements of a text. This ranges from headings to paragraphs to lists, and is crucial in creating documents that are easy to read for both humans and screen readers.
