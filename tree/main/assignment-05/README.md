@@ -1,0 +1,3 @@
+I went to youtube in 2005, and it was amazing how different it looked. From a messaging program to a search engine that looks more like google than youtube. On top of that, the styling and art looked simplistic and (in some cases) incredibly low resolution. Overall, it felt more like a direct host for videos with some social abilities rather than an entire platform for content.
+
+Here is the screenshot: [Screenshot](images/Screenshot.png)
