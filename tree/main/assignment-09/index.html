@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+
+        <meta name="description" content="A website to host a gallery of images I have made!">
+
+        <title>Assignment 09</title>
+
+        <meta name="author" content="Ivy Olson">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            /* latin-ext */
+            @font-face {
+                font-family: 'Kanit';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcrabGwCYdA.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Kanit';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcraVGwA.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            @font-face {
+                font-family: 'Fira Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/firasans/v16/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            @font-face {
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-ks51os.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            .header {
+                margin-left: auto;
+                margin-right: auto;
+                width: 66%;
+            }
+            .logo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .title {
+                text-align: center;
+                font-family: 'Kanit';
+            }
+            #main-menu {
+                font-family:'Fira Sans';
+                text-align: center;
+            }
+            .main-content {
+                margin: auto;
+                width: 66%;
+                font-family:'Barlow';
+                text-align: center;
+            }
+            .footer {
+                background: no-repeat center url("images/BrickBlackWhite.png");
+                background-position: cover;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                height: 150px;
+            }
+            .stinger {
+                width: 40%;
+                height: 40%;    
+                margin-top: 50px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-left: 25px solid grey;
+                border-right: 25px solid grey;
+            }
+            .footer a {
+                color: white;
+                padding: 15px;
+                margin: 45px;
+                top: 40%;
+                position:relative;
+                background: rgba(82, 82, 82, 0.664);
+                text-decoration: none;
+                font-family: 'Fira Sans';
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <img class="logo" src="images/ivycon.png" alt="Round logo of Ivygoat" width="150" height="150">
+            <h1 class="title">ASSIGNMENT 09</h1>
+        </div>
+        <nav id="main-menu">
+            <a href="#">Home</a>
+            &vert;
+            <a href="pages/about.html">About</a>
+            &vert;
+            <a href="pages/gallery.html">Gallery</a>
+        </nav>
+        <div class="main-content">
+            <p class="main-text">
+                This website holds a galery of various images I have made either on commission or as a personal project. They range from scary to funny in some instances.
+                I am allowed to share all of these images, and I consider myself rather proud of each of these!
+            </p>
+        </div>
+        <img class="stinger" src="images/Bonnie Blur.png" width="1849" height="1040">
+        <div class="footer" height="200">
+            <a href="mailto:ivy.olson01@gmail.com">ivy.olson01@gmail.com</a>
+        </div>
+    </body>
+</html>
