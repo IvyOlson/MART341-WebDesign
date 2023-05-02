@@ -1,0 +1,218 @@
+* {
+    size:border-box;
+    margin:0 auto;
+}
+
+body{
+    background-color: black;
+    background-image: url("../assets/images/SiteBackdrop.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.siteHeader {
+    width: 100%;
+}
+
+.mainIcon {
+    float: left;
+    z-index: -2;
+}
+
+.navBar {
+    width: 100%;
+    background-color: #333333;
+}
+
+.navLinks {
+    text-align: right;
+    padding: 1%;
+    margin-left: 5%;
+}
+
+.navLinks a{
+    padding-left: 4%;
+    padding-right: 4%;
+    text-decoration: none;
+    font-family: 'Sigmar', cursive;
+    color: white;
+    font-size: 200%;
+}
+
+.pageHeader{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    border-bottom: solid #333333;
+    margin-bottom: 2%;
+}
+
+.pageHeaderText{
+    z-index: 1;
+    float: right;
+    color: white;
+    position: absolute;
+    top:40%;
+    bottom:60%;
+    right: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 150%;
+    text-align: right;
+}
+
+.redHeader{
+    color:red;
+}
+
+.descriptionSection{
+    width: 33%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: rgba(0.3,0.3,0.3,0.9);
+    color: white;
+}
+
+.descriptionSection h1{
+    padding-bottom: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.descriptionSection p{
+    padding-top: 1%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.iconGallerySection{
+    width: 100%;
+}
+
+.col-1{
+    width: 18%;
+    border-left: solid red;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.col-2{
+    width: 18%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.col-3{
+    width: 18%;
+    border-right: solid red;
+    background-color: rgba(0,0,0,0.5);
+}
+
+[class*="col-"] {
+    float: left;
+    left: 20%;
+    position: relative;
+    padding: 0.25%;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 768px){
+    [class*="col-"] {
+        float: none;
+        position: static;
+        border-left: solid red;
+        border-right: solid red;
+    }
+
+    .col-1{
+        width: 50%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    
+    .col-2{
+        width: 50%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    
+    .col-3{
+        width: 50%;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .row::after {
+        display: inline;
+    }
+
+    .siteHeader {
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+    
+    .mainIcon {
+        position: fixed;
+        float: left;
+        z-index: 3;
+    }
+
+    .navLinks a{
+        display: block;
+        text-decoration: none;
+        font-family: 'Sigmar', cursive;
+        color: white;
+        background-color: #663333;
+        font-size: 120%;
+        padding: 0.5%;
+        transition: background-color 0.1s;
+    }
+
+    .navLinks a:hover{
+        background-color: #691919;
+    }
+
+    .descriptionSection{
+        width: 66%;
+    }
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.row img{
+    opacity: 0.6;
+    max-width: 100%;
+    background-color: black;
+    transition: opacity 0.75s;
+}
+
+.row img:hover{
+    opacity: 1;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.siteFooter{
+    background-color: #663333;
+    width: 100%;
+}
+
+.footerBar{
+    height: 100%;
+}
+
+.footerIcon{
+}
+
+.twitterIcon{
+    float: right;
+    margin: 1.5%;
+    padding-right: 1%;
+}
+
+
+  
