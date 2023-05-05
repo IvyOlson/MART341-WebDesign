@@ -1,0 +1,24 @@
+#Header {
+    background: #b2f2ff;
+    padding: 25px;
+    text-align: center;
+    width: 33%;
+    left: 33%;
+    position: relative;
+}
+.Content{
+    width: 66%;
+    left: 16.5%;
+    background: #defff1;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+
+body {
+    background: #dbecf0;
+}
+
+img {
+    border: solid black 5px;
+}
