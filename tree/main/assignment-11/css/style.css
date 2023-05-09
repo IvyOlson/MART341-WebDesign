@@ -1,0 +1,28 @@
+*{
+    font-family: 'Type Machine';
+    font-weight: 500;
+}
+
+.header{
+    font-weight: 600;
+}
+
+.main{
+    font-weight: 400;
+}
+
+.link{
+    color:black;
+    font-weight: 500;
+    transition: color 0.5s;
+}
+
+.link:hover{
+    color:darkgray;
+    font-weight: 700;
+}
+
+.link:visited{
+    color:brown;
+    font-weight: 700;
+}
