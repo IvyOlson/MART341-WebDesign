@@ -1,0 +1,24 @@
+.musicButton{
+    text-decoration: underline !important;
+}
+
+.pageHeader{
+    background-image: url("../assets/images/musicHeader.png") !important;
+    margin-bottom: 0 !important;
+}
+
+.mediaPlayer{
+    width: 33%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    left:33%;
+    
+}
+
+@media only screen and (max-width: 768px){
+    .mediaPlayer{
+        width:100%;
+        left: 0%;
+    }
+}

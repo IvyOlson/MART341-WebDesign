@@ -1,0 +1,61 @@
+.aboutButton{
+    text-decoration: underline !important;
+}
+
+.pageHeader{
+    background-image: url("../assets/images/aboutHeader.png") !important;
+    margin-bottom: 0 !important;
+}
+
+.authorSection{
+    width: 40%;
+    background-color: #333333;
+    border-bottom: solid #333333;
+    padding: 0;
+}
+
+.authorSection h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+.authorSection p{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.ProfileText{
+    width: 90%;
+    display: block;
+    text-align: right;
+    font-size: 120%;
+}
+
+.ProfileImage{
+    width: 60%;
+    float: left;
+    display: block;
+}
+
+
+@media only screen and (max-width: 768px){
+    .ProfileImage{
+        width: 100%;
+        float: none;
+        display: inline !important;
+    }
+
+    .ProfileText{
+        width: 100%;
+        display: inline !important;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .authorSection{
+        width: 80%;
+        background-color: #333333;
+        border-bottom: solid #333333;
+        padding: 0;
+    }
+}

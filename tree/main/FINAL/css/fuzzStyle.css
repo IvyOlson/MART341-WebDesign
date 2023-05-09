@@ -1,0 +1,96 @@
+.fuzzButton{
+    text-decoration: underline !important;
+}
+
+body{
+    background-image: none !important;
+}
+
+.pageHeader{
+    background-image: url("../assets/images/fuzzHeader.png") !important;
+    margin-bottom: 0 !important;
+}
+
+.fuzzDescriptionSection{
+    background-color: black;
+    color: white;
+    border-bottom: solid #333333;
+}
+
+.fuzzDescriptionBox{
+    display: block;
+    float:left;
+    position: relative;
+    left: 0%;
+    width: 40%;
+}
+
+.fuzzLinkBox{
+    display: block;
+    float:right;
+    position: relative;
+    right: 0%;
+    width: 60%;
+    height: 100px;
+}
+
+.AnubisImage{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    width: 50%;
+}
+
+.fuzzLinkSectionHeader{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    bottom: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fuzzDescriptionSectionHeader{
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fuzzDescriptionSectionText{
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    width: 25vh;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@media only screen and (max-width: 768px){
+    .fuzzDescriptionBox{
+        display: inline-block;
+        float:none;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .fuzzDescriptionBox img{
+        width: 100%;
+    }
+
+    .fuzzLinkBox{
+        display: inline;
+        float:none;
+        position: static;
+        margin-bottom: 4%;
+    }
+    
+    .fuzzLinkBox{
+        display: block;
+        float:none;
+    }
+
+    .AnubisImage{
+        position: static;
+        left: 0%;
+        top: 0%;
+    }
+}
